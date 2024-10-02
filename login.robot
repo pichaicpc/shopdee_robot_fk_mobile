@@ -31,7 +31,7 @@ Invalid Login Test
   Input Text        id=th.ac.rmutto.shopdee:id/editTextUsername    ${INVALID_USERNAME} 
   Input Text        id=th.ac.rmutto.shopdee:id/editTextPassword    ${INVALID_PASSWORD}
   Click Element     id=th.ac.rmutto.shopdee:id/buttonLogin    
-  Wait Until Element Is Visible   id=th.ac.rmutto.shopdee:id/buttonLogin    timeout=10s
+  Wait Until Element Is Visible   id=th.ac.rmutto.shopdee:id/main_login    timeout=10s
   Close Application 
 
 *** Keywords ***
